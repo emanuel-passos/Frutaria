@@ -1,7 +1,7 @@
 .cabecalho{
 
 align-items: center;
-background: #f9f9f9;
+background: #ffffff;
 display: flex;
 justify-content: space-between;
 padding-left: 2rem;
@@ -125,4 +125,70 @@ padding-right: 2rem;
 .receita-botao:hover{
     background: #620404;
     cursor: pointer;
+}
+
+.quem-somos-titulo{
+    margin-bottom: 1rem;
+    color: #8d0606;
+    font-size: 3.1875rem;
+    font-family: Pacifico, cursive;
+    
+}
+
+.quem-somos{
+    text-align: center;
+    padding: 5rem;
+}
+
+.quem-somos-descricao{
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959;
+}
+
+.pessoa{
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoas{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+.pessoa-nome{
+    margin: 1rem 0;
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+}
+
+.pessoa-funcao{
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+}
+
+.pessoa-imagem{
+    background: red;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-position: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.pessoa-imagem--roberta{
+    background-image: url(../../assets/img/roberta.jpg);
+}
+
+.pessoa-imagem--marcela{
+    background-image: url(../../assets/img/marcela.jpg);
+}
+
+.pessoa-imagem--andreia{
+    background-image: url(../../assets/img/andreia.jpg);
 }
